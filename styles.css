@@ -19,9 +19,37 @@
   position: fixed;
   bottom: 0;
 }
+
+/* filters */
+
+.filter-wrapper {
+  width: 16rem;
+  margin-top: 3.8rem;
+  overflow-y: scroll;
+  height: 80vh;
+  position: fixed;
+}
+
+/* spacing  */
+
+.full-width {
+  width: 100%;
+}
+.margin-left {
+  margin-left: 6rem;
+}
+.margin-right {
+  margin-right: 3rem;
+}
+.margin {
+  margin: 1rem;
+}
+
+/* styling  */
+
 .primary-color {
   color: var(--primary-color);
 }
-.full-width {
-  width: 100%;
+.underlined {
+  text-decoration: underline;
 }

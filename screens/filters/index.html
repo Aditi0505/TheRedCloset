@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS" />
+    <meta name="author" content="Aditi" />
+    <meta name="description" cotent="E-commerce app for albums." />
+    <link rel="icon" type="image/x-icon" href="./assets//images/favicon-16x16.png" />
+    <title>The Red Closet | Filters</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="https://redazzleui.netlify.app/Components/redazzle.css" />
+</head>
+
+<body>
+    <header class="desktop-navigation position-fixed">
+        <nav class="logo-wrapper">
+            <div class="nav-logo">
+            </div>
+            <div>
+                <a href="/index.html" class="site-link">
+                    <p class="text-lg">The Red Closet</p>
+                </a>
+            </div>
+        </nav>
+        <input type="text" name="search" id="search" placeholder="🔍 Search" />
+        <ul class="nav-icons">
+            <li>
+                <a href="/index.html" class="nav-icon">
+                    <button class="btn btn-ghost-primary">Logout</button>
+                </a>
+            </li>
+            <li>
+                <a href="" class="nav-icon">
+                    <div class="badge">
+                        <i class="badge-icon fas fa-heart"></i>
+                        <span class="display-flex badge-number badge-display">0</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="" class="nav-icon">
+                    <div class="badge">
+                        <i class="badge-icon fas fa-shopping-cart"></i>
+                        <span class="display-flex badge-number badge-display">0</span>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </header>
+
+    <aside class="outer-wrapper">
+        <section class="screen filter-wrapper">
+            <div class="flex-column  margin-right">
+                <ul class="list-style-none flex-column">
+                    <li class="list-item">
+                        <div>
+                            <span class="ft-bolder">Filters</span>
+                            <span class="margin-left underlined">Clear</span>
+                        </div>
+                    </li>
+                    <li class="list-item">
+                        <div class="flex-column">
+                            <span class="ft-bolder">Price</span>
+                            <div class="flex-spbt"><span>50</span><span>150</span><span>250</span></div>
+                        </div>
+                    </li>
+                    <li class="list-item">
+                        <div>
+                            <input type="range" name="priceRange" id="priceRange" class="full-width">
+                        </div>
+                    </li>
+                    <li class="list-item">
+                        <div class="flex-column">
+                            <span class="ft-bolder">Category</span>
+                            <div>
+                                <div> <input type="checkbox" required name="checkbox" id="checkbox"
+                                        class="inputBox margin-tb-sm" />
+                                    <label for="album" class="label-content">Albums</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" required name="checkbox" id="checkbox"
+                                        class="inputBox margin-tb-sm" />
+                                    <label for="album" class="label-content">Concerts</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" required name="checkbox" id="checkbox"
+                                        class="inputBox margin-tb-sm" />
+                                    <label for="album" class="label-content">Accessories</label>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-item">
+                        <div class="flex-column">
+                            <span class="ft-bolder">Rating</span>
+                            <div>
+                                <div>
+                                    <div>
+                                        <input type="radio" name="star" class="margin-tb-sm">
+                                        <label for="4-star" class="label-content">4 Stars & above</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" name="star" class="margin-tb-sm">
+                                        <label for="3-star" class="label-content">3 Stars & above</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" name="star" class="margin-tb-sm">
+                                        <label for="3-star" class="label-content">2 Stars & above</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" name="star" class="margin-tb-sm">
+                                        <label for="3-star" class="label-content">1 Star & above</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-item">
+                        <div class="flex-column">
+                            <span class="ft-bolder">Sort By</span>
+                            <div>
+                                <div>
+                                    <div>
+                                        <input type="radio" name="sort" class="margin-tb-sm">
+                                        <label for="lowSort" class="label-content">Price- Low to High</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" name="sort" class="margin-tb-sm">
+                                        <label for="highSort" class="label-content">Price- High to Low</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </aside>
+
+    <footer class="footer padding-sm full-width">
+        <div class="flex-center">
+            <ul class="nav-icons">
+                <li>
+                    <a href="https://github.com/Aditi0505" class="nav-icon" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/aadyaaditi" class="nav-icon" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/aditi-35bba3149/" class="nav-icon" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li class="primary-color">
+                    &copy; Aditi
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
