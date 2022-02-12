@@ -53,3 +53,17 @@
 .underlined {
   text-decoration: underline;
 }
+
+/* product listing */
+.product-listing {
+  margin-left: 16rem;
+}
+
+.product-screen {
+  margin: 4.25rem 0 3.25rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--sm-size);
+}
