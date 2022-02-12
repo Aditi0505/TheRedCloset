@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS" />
+    <meta name="author" content="Aditi" />
+    <meta name="description" cotent="E-commerce app for albums." />
+    <link rel="icon" type="image/x-icon" href="./assets//images/favicon-16x16.png" />
+    <title>The Red Closet | Cart</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="https://redazzleui.netlify.app/Components/redazzle.css" />
+</head>
+
+<body>
+    <header class="desktop-navigation position-fixed">
+        <nav class="logo-wrapper">
+            <div class="nav-logo">
+            </div>
+            <div>
+                <a href="/index.html" class="site-link">
+                    <p class="text-lg">The Red Closet</p>
+                </a>
+            </div>
+        </nav>
+        <input type="text" name="search" id="search" placeholder="🔍 Search" />
+        <ul class="nav-icons">
+            <li>
+                <a href="/index.html" class="nav-icon">
+                    <button class="btn btn-ghost-primary">Logout</button>
+                </a>
+            </li>
+            <li>
+                <a href="" class="nav-icon">
+                    <div class="badge">
+                        <i class="badge-icon fas fa-heart"></i>
+                        <span class="display-flex badge-number badge-display">0</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="" class="nav-icon">
+                    <div class="badge">
+                        <i class="badge-icon fas fa-shopping-cart"></i>
+                        <span class="display-flex badge-number badge-display">0</span>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </header>
+
+    <main class="outer-wrapper">
+        <section class="display-screen">
+            <div class="card-container-horizontal">
+                <div class="card-inner-container-horizontal">
+                    <div class="horizontal-card-image">
+                        <img src="/assets/images/Vinyl.jpg" alt="Taylor Swift" class="img-horizontal" />
+                    </div>
+                    <div class="flex-center card-body-horizontal">
+                        <div class="card-title-horizontal">Viynl Record</div>
+                        <div class="card-desc-horizontal">
+                            $2000 <span class="striked">3990</span>
+                        </div>
+                        <div class="card-desc-horizontal">50% off</div>
+                        <div class="flex-center">Quantity:
+                            <button class="btn btn-icon"> <i class="fas fa-minus"></i></button>
+                            <span><input type="number" name="quantity" id="quantity"
+                                    class="inputBox custom-width  text-center"></span>
+                            <button class="btn btn-icon"> <i class="fa fa-plus"></i></button>
+                        </div>
+                        <div class="display-icons">
+                            <button class="full-width btn btn-secondary">Remove from Cart</button>
+                            <button class="full-width btn btn-outline-secondary">Move to Wishlist</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-card-container card">
+                <div class="card-inner-container">
+                    <div class="hide">
+                        <img src="/images/Taylor-swift.jpg" alt="Taylor Swift" class="img" />
+                    </div>
+                    <div class="card-body padding-sm">
+                        <div class="card-title text-left">Price Details</div>
+                        <div class="card-desc flex-column">
+                            <hr class="full-width">
+                            <div class="flex-spbt">
+                                <span class="items">Price (2 items)</span>
+                                <span class="price">$4999</span>
+                            </div>
+                            <div class="flex-spbt">
+                                <span class="discount">Discount</span>
+                                <span class="price">- $1999</span>
+                            </div>
+                            <div class="flex-spbt">
+                                <span class="delivery">Delivery Charges</span>
+                                <span class="price">$499</span>
+                            </div>
+                            <hr class="full-width">
+                            <div class="flex-spbt">
+                                <span class="total">Total Amount</span>
+                                <span class="price"> $3499 </span>
+                            </div>
+
+                            <hr class="full-width">
+                            <span class="items">You will save $1999 on this order</span>
+                            <button class="full-width btn btn-primary">Place Order</button>
+                        </div>
+                    </div>
+                    <div class="hide-overlay"> Women</div>
+                </div>
+                <div class="hide">
+                    <button class=" btn-action flex-center">Add to Cart</button>
+                    <button class="btn-action-horizontal secondary">Remove from wishlist</button>
+                    <span class="dismiss flex-center"><button class="card-btn-close">
+                            <i class="fas fa-times-circle close"></i></button>
+                    </span>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+</body>
+
+</html>
