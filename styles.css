@@ -6,11 +6,17 @@
   padding: var(--sm-size);
 }
 .screen {
-  margin-top: 100px;
+  margin-top: 6.25rem;
   flex-wrap: wrap;
   gap: var(--sm-size);
 }
 .image-wrapper {
   height: auto;
   align-items: center;
+}
+.footer {
+  background-color: var(--secondary-color);
+}
+.primary-color {
+  color: var(--primary-color);
 }
