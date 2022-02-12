@@ -6,9 +6,9 @@
   padding: var(--sm-size);
 }
 .screen {
-  margin-top: 6.25rem;
   flex-wrap: wrap;
   gap: var(--sm-size);
+  margin: 6.25rem 0 3.25rem 0;
 }
 .image-wrapper {
   height: auto;
@@ -16,7 +16,12 @@
 }
 .footer {
   background-color: var(--secondary-color);
+  position: fixed;
+  bottom: 0;
 }
 .primary-color {
   color: var(--primary-color);
+}
+.full-width {
+  width: 100%;
 }
