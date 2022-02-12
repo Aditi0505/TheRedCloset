@@ -1,0 +1,16 @@
+/* home layout */
+
+.outer-wrapper {
+  flex-direction: column;
+  gap: var(--sm-size);
+  padding: var(--sm-size);
+}
+.screen {
+  margin-top: 100px;
+  flex-wrap: wrap;
+  gap: var(--sm-size);
+}
+.image-wrapper {
+  height: auto;
+  align-items: center;
+}
