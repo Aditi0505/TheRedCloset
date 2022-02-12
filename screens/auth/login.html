@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Aditi" />
+    <meta name="description" cotent="Component Library for styling purpose." />
+    <link rel="icon" type="image/x-icon" href="./assets//images/favicon-16x16.png" />
+    <title>The Red Closet | Login</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="https://redazzleui.netlify.app/Components/redazzle.css" />
+</head>
+
+<body>
+    <header class="desktop-navigation position-fixed">
+        <nav class="logo-wrapper">
+            <div class="nav-logo">
+            </div>
+            <div>
+                <a href="/index.html" class="site-link">
+                    <p class="text-lg">The Red Closet</p>
+                </a>
+            </div>
+        </nav>
+        <input type="text" name="search" id="search" placeholder="🔍 Search" />
+        <ul class="nav-icons">
+            <li>
+                <a href="/screens/Authentication/login.html" class="nav-icon">
+                    <button class="btn btn-ghost-primary">Login</button>
+                </a>
+            </li>
+            <li>
+                <a href="" class="nav-icon">
+                    <div class="badge">
+                        <i class="badge-icon fas fa-heart"></i>
+                        <span class="display-flex badge-number badge-display">0</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="" class="nav-icon">
+                    <div class="badge">
+                        <i class="badge-icon fas fa-shopping-cart"></i>
+                        <span class="display-flex badge-number badge-display">0</span>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </header>
+
+    <main class="outer-wrapper flex-spbt">
+        <section class="screen flex-spbt">
+            <div class="text-card-container card card-container-shadow">
+                <div class="card-inner-container">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h3>Login</h3>
+                        </div>
+                        <div class="card-desc">
+                            <form>
+                                <div class="text-left">
+                                    <label for="email" class="required-content label-content ft-bolder">
+                                        Email Address</label>
+                                </div>
+
+                                <input type="email" required name="email" id="email"
+                                    class="inputBox margin-tb-sm padding-xs" placeholder="aditi@gmail.com" />
+                                <div class="text-left">
+                                    <label for="password"
+                                        class="required-content label-content ft-bolder">Password</label>
+                                </div>
+
+                                <input type="password" required name="password" id="password"
+                                    class="inputBox margin-tb-sm padding-xs" placeholder="*****************" />
+                                <div>
+                                    <div class="flex-spbt">
+                                        <div>
+                                            <input type="checkbox" required name="checkbox" id="checkbox"
+                                                class="inputBox margin-tb-sm" />
+                                            <label for="remember" class="label-content text-xs text-left">Remember
+                                                me</label>
+                                        </div>
+
+                                        <a href="#" class="text text-right text-xs ft-light text-right">Forgot
+                                            password</a>
+                                    </div>
+                                </div>
+                                <button class="btn btn-primary margin-tb-sm">
+                                    Login To Your Account
+                                </button>
+                                <div>
+                                    <a href="/screens/auth/signup.html" class="text text-sm ft-light">Create
+                                        New Account</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer padding-sm full-width">
+        <div class="flex-center">
+            <ul class="nav-icons">
+                <li>
+                    <a href="https://github.com/Aditi0505" class="nav-icon" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/aadyaaditi" class="nav-icon" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/aditi-35bba3149/" class="nav-icon" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li class="primary-color">
+                    &copy; Aditi
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
