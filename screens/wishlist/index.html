@@ -9,7 +9,7 @@
     <meta name="author" content="Aditi" />
     <meta name="description" cotent="E-commerce app for albums." />
     <link rel="icon" type="image/x-icon" href="./assets//images/favicon-16x16.png" />
-    <title>The Red Closet | Products</title>
+    <title>The Red Closet | Wishlist</title>
     <link rel="stylesheet" href="/styles.css" />
     <link rel="stylesheet" href="https://redazzleui.netlify.app/Components/redazzle.css" />
 </head>
@@ -50,99 +50,9 @@
             </li>
         </ul>
     </header>
-
-    <aside class="outer-wrapper">
-        <section class="screen filter-wrapper">
-            <div class="flex-column  margin-right">
-                <ul class="list-style-none flex-column">
-                    <li class="list-item">
-                        <div>
-                            <span class="ft-bolder">Filters</span>
-                            <span class="margin-left underlined">Clear</span>
-                        </div>
-                    </li>
-                    <li class="list-item">
-                        <div class="flex-column">
-                            <span class="ft-bolder">Price</span>
-                            <div class="flex-spbt"><span>50</span><span>150</span><span>250</span></div>
-                        </div>
-                    </li>
-                    <li class="list-item">
-                        <div>
-                            <input type="range" name="priceRange" id="priceRange" class="full-width">
-                        </div>
-                    </li>
-                    <li class="list-item">
-                        <div class="flex-column">
-                            <span class="ft-bolder">Category</span>
-                            <div>
-                                <div> <input type="checkbox" required name="checkbox" id="checkbox"
-                                        class="inputBox margin-tb-sm" />
-                                    <label for="album" class="label-content">Albums</label>
-                                </div>
-                                <div>
-                                    <input type="checkbox" required name="checkbox" id="checkbox"
-                                        class="inputBox margin-tb-sm" />
-                                    <label for="album" class="label-content">Concerts</label>
-                                </div>
-                                <div>
-                                    <input type="checkbox" required name="checkbox" id="checkbox"
-                                        class="inputBox margin-tb-sm" />
-                                    <label for="album" class="label-content">Accessories</label>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="list-item">
-                        <div class="flex-column">
-                            <span class="ft-bolder">Rating</span>
-                            <div>
-                                <div>
-                                    <div>
-                                        <input type="radio" name="star" class="margin-tb-sm">
-                                        <label for="4-star" class="label-content">4 Stars & above</label>
-                                    </div>
-                                    <div>
-                                        <input type="radio" name="star" class="margin-tb-sm">
-                                        <label for="3-star" class="label-content">3 Stars & above</label>
-                                    </div>
-                                    <div>
-                                        <input type="radio" name="star" class="margin-tb-sm">
-                                        <label for="3-star" class="label-content">2 Stars & above</label>
-                                    </div>
-                                    <div>
-                                        <input type="radio" name="star" class="margin-tb-sm">
-                                        <label for="3-star" class="label-content">1 Star & above</label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="list-item">
-                        <div class="flex-column">
-                            <span class="ft-bolder">Sort By</span>
-                            <div>
-                                <div>
-                                    <div>
-                                        <input type="radio" name="sort" class="margin-tb-sm">
-                                        <label for="lowSort" class="label-content">Price- Low to High</label>
-                                    </div>
-                                    <div>
-                                        <input type="radio" name="sort" class="margin-tb-sm">
-                                        <label for="highSort" class="label-content">Price- High to Low</label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-    </aside>
-
-    <main class="outer-wrapper flex-spbt product-listing">
+    <main class="outer-wrapper flex-spbt">
         <!-- badge type icon -->
-        <div class="display-screen">
+        <section class="display-screen">
             <div class="card">
                 <div class="card-inner-container">
                     <div class="card-image">
@@ -155,7 +65,7 @@
                     <div class="hide-overlay">Women</div>
                 </div>
                 <div class="icons">
-                    <button class="btn-primary btn flex-center full-width padding-xs margin">Go to Cart</button>
+                    <button class="btn-secondary btn flex-center full-width padding-xs margin">Move to Cart</button>
                     <button class="btn-action flex-center hide secondary">
                         Move to Cart
                     </button>
@@ -184,7 +94,7 @@
                     <button class="btn-action-horizontal-hide secondary">
                         Remove from wishlist
                     </button>
-                    <span class="card-badge flex-center"><i class="far fa-heart"></i></span>
+                    <span class="card-badge flex-center"><i class="fas fa-heart"></i></span>
                 </div>
             </div>
             <div class="card">
@@ -206,7 +116,7 @@
                     <button class="btn-action-horizontal-hide secondary">
                         Remove from wishlist
                     </button>
-                    <span class="card-badge flex-center"><i class="far fa-heart"></i></span>
+                    <span class="card-badge flex-center"><i class="fas fa-heart"></i></span>
                 </div>
             </div>
             <div class="card">
@@ -228,7 +138,7 @@
                     <button class="btn-action-horizontal-hide secondary">
                         Remove from wishlist
                     </button>
-                    <span class="card-badge flex-center"><i class="far fa-heart"></i></span>
+                    <span class="card-badge flex-center"><i class="fas fa-heart"></i></span>
                 </div>
             </div>
             <div class="card">
@@ -250,7 +160,7 @@
                     <button class="btn-action-horizontal-hide secondary">
                         Remove from wishlist
                     </button>
-                    <span class="card-badge flex-center"><i class="far fa-heart"></i></span>
+                    <span class="card-badge flex-center"><i class="fas fa-heart"></i></span>
                 </div>
             </div>
             <div class="card">
@@ -272,7 +182,7 @@
                     <button class="btn-action-horizontal-hide secondary">
                         Remove from wishlist
                     </button>
-                    <span class="card-badge flex-center"><i class="far fa-heart"></i></span>
+                    <span class="card-badge flex-center"><i class="fas fa-heart"></i></span>
                 </div>
             </div>
             <div class="card">
@@ -294,7 +204,7 @@
                     <button class="btn-action-horizontal-hide secondary">
                         Remove from wishlist
                     </button>
-                    <span class="card-badge flex-center"><i class="far fa-heart"></i></span>
+                    <span class="card-badge flex-center"><i class="fas fa-heart"></i></span>
                 </div>
             </div>
             <div class="card">
@@ -316,58 +226,11 @@
                     <button class="btn-action-horizontal-hide secondary">
                         Remove from wishlist
                     </button>
-                    <span class="card-badge flex-center"><i class="far fa-heart"></i></span>
+                    <span class="card-badge flex-center"><i class="fas fa-heart"></i></span>
                 </div>
             </div>
-            <div class="card">
-                <div class="card-inner-container">
-                    <div class="card-image">
-                        <img src="/assets/images/Taylor-swift.jpg" alt="Taylor Swift" class="img" />
-                    </div>
-                    <div class="card-body">
-                        <div class="card-title">Orange Hat</div>
-                        <div class="card-desc">$2000</div>
-                    </div>
-                    <div class="hide-overlay">Women</div>
-                </div>
-                <div class="icons">
-                    <button class="btn-secondary btn flex-center full-width padding-xs margin">Move to Cart</button>
-                    <button class="btn-action flex-center hide secondary">
-                        Move to Cart
-                    </button>
-                    <button class="btn-action-horizontal-hide secondary">
-                        Remove from wishlist
-                    </button>
-                    <span class="card-badge flex-center"><i class="far fa-heart"></i></span>
-                </div>
-            </div>
-        </div>
+        </section>
     </main>
-
-    <footer class="footer padding-sm full-width">
-        <div class="flex-center">
-            <ul class="nav-icons">
-                <li>
-                    <a href="https://github.com/Aditi0505" class="nav-icon" target="_blank">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/aadyaaditi" class="nav-icon" target="_blank">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/aditi-35bba3149/" class="nav-icon" target="_blank">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                </li>
-                <li class="primary-color">
-                    &copy; Aditi
-                </li>
-            </ul>
-        </div>
-    </footer>
 </body>
 
 </html>
