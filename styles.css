@@ -50,8 +50,8 @@
 .primary-color {
   color: var(--primary-color);
 }
-.underlined {
-  text-decoration: underline;
+body {
+  font-family: var(--body-font);
 }
 
 /* product listing */
@@ -72,8 +72,4 @@
 .custom-width {
   width: var(--xl-size);
   height: var(--xl-size);
-}
-
-body {
-  font-family: var(--body-font);
 }
