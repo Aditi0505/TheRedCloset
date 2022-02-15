@@ -8,7 +8,7 @@
 .screen {
   flex-wrap: wrap;
   gap: var(--sm-size);
-  margin: 6.25rem 0 3.25rem 0;
+  margin: 10rem 0 5.2rem 0;
 }
 .image-wrapper {
   height: auto;
@@ -23,8 +23,8 @@
 /* filters */
 
 .filter-wrapper {
-  width: 16rem;
-  margin-top: 3.8rem;
+  width: 25.6rem;
+  margin-top: 6.1rem;
   overflow-y: scroll;
   height: 80vh;
   position: fixed;
@@ -36,13 +36,13 @@
   width: 100%;
 }
 .margin-left {
-  margin-left: 3rem;
+  margin-left: 4.8rem;
 }
 .margin-right {
-  margin-right: 3rem;
+  margin-right: 4.8rem;
 }
 .margin {
-  margin: 1rem;
+  margin: 1.6rem;
 }
 
 /* styling  */
@@ -56,11 +56,11 @@ body {
 
 /* product listing */
 .product-listing {
-  margin-left: 16rem;
+  margin-left: 25.6rem;
 }
 
 .display-screen {
-  margin: 4.25rem 0 3.25rem 0;
+  margin: 6.8rem 0 5.2rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
