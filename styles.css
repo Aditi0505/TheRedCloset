@@ -18,6 +18,7 @@
   background-color: var(--secondary-color);
   position: fixed;
   bottom: 0;
+  height: 5vh;
 }
 
 /* filters */
@@ -29,7 +30,9 @@
   height: 80vh;
   position: fixed;
 }
-
+.filter-buttons {
+  display: none;
+}
 /* spacing  */
 
 .full-width {
@@ -72,4 +75,32 @@ body {
 .custom-width {
   width: var(--xl-size);
   height: var(--xl-size);
+}
+
+@media screen and (max-width: 860px) {
+  html {
+    font-size: 35%;
+  }
+  .screen {
+    margin-top: 12rem;
+  }
+  .display-screen {
+    margin-top: 12rem;
+    width: 100%;
+  }
+  .filter-wrapper {
+    display: none;
+  }
+  .product-listing {
+    margin-top: -2rem;
+    margin-left: 0;
+  }
+  .filter-buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    position: fixed;
+    bottom: 5vh;
+  }
 }
